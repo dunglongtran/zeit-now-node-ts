@@ -133,7 +133,7 @@ Object.defineProperty(exports, "__esModule", {
 const http_1 = __importDefault(require("http"));
 
 http_1.default.createServer(function (req, res) {
-  res.write("Hello Typescript!");
+  res.write("Hello Typescript!1");
   res.end();
 }).listen(8080);
 },{}]},{},["index.ts"], null)
