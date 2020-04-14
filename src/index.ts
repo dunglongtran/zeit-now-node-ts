@@ -7,9 +7,8 @@ import { NowRequest, NowResponse } from "@now/node";
  *  +  Tao moi Projekt bang template
  *  + File -> Fork Sandbox de tao Projekt moi sau do moi lam viec
  */
-http
-  .createServer(function(req: NowRequest, res: NowResponse) {
-    res.write("Hello Typescript!1"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+http.createServer(function(req: NowRequest, res: NowResponse) {
+  res.write("Hello Typescript!1"); //write a response to the client
+  res.end(); //end the response
+});
+//.listen(8080); //the server object listens on port 8080
